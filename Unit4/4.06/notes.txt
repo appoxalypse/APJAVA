@@ -1,0 +1,5 @@
+"==" tests if two strings are equal (refer to same object)
+if testing for same characters in same order, use "equals" or "compareTo"
+if s1 = "Hi" and s2 = "hi" then s1.equals(s2) is false
+substring doesn't include the character at the last index
+strings can't change
