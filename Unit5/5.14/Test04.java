@@ -7,7 +7,7 @@ public class Test04 {
     if (message.indexOf(" bomb ") >= 0) {
       System.out.println("Possible bomb threat");
     } else {
-      System.out.println("No mention of bomb")
+      System.out.println("No mention of bomb");
     }
 
   }
