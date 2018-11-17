@@ -1,0 +1,16 @@
+For example:
+
+     String str = "abc";
+
+is equivalent to:
+
+     char data[] = {'a', 'b', 'c'};
+     String str = new String(data);
+
+Here are some more examples of how strings can be used:
+
+     System.out.println("abc");
+     String cde = "cde";
+     System.out.println("abc" + cde);
+     String c = "abc".substring(2,3);
+     String d = cde.substring(1,2);

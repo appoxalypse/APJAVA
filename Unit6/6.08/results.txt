@@ -1,0 +1,49 @@
+for maggie.findKeyword("yesterday is today's day before.", "day", 0);
+<start>
+  6
+  r
+
+  15
+  0
+  '
+  21
+
+
+<end>
+
+for maggie.findKeyword("She's my sister", "sister", 0);
+<start>
+  9
+
+
+<end>
+
+for maggie.findKeyword("Brother Tom is helpful", "brother", 0);
+<start>
+  0
+
+
+<end>
+
+for maggie.findKeyword("I can't catch wild cats.", "cat", 0);
+<start>
+  8
+
+  c
+  19
+
+  s
+<end>
+
+for maggie.findKeyword("I know nothing about snow plows.", "no", 0);
+<start>
+  3
+  k
+  w
+  7
+
+  t
+  22
+  s
+  w
+<end>
