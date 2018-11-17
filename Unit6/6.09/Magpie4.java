@@ -60,6 +60,9 @@ public class Magpie4
       {
          response = transformIWantStatement(statement);
       }
+      else if (findKeyword(statement, "I want to understand French.")) {
+         /* response = transformIWantStatement(statement); */
+      }
 
       else
       {
@@ -90,12 +93,10 @@ public class Magpie4
    {
       //  Remove the final period, if there is one
       statement = statement.trim();
-      String lastChar = statement.substring(statement
-                                            .length() - 1);
+      String lastChar = statement.substring(statement.length() - 1);
       if (lastChar.equals("."))
       {
-         statement = statement.substring(0, statement
-                                            .length() - 1);
+         statement = statement.substring(0, statement.length() - 1);
       }
       int psn = findKeyword (statement, "I want to", 0);
       String restOfStatement = statement.substring(psn + 9).trim();
@@ -116,8 +117,7 @@ public class Magpie4
                                             .length() - 1);
       if (lastChar.equals("."))
       {
-         statement = statement.substring(0, statement
-                                            .length() - 1);
+         statement = statement.substring(0, statement.length() - 1);
       }
       int psn = findKeyword (statement, "I want", 0);
       String restOfStatement = statement.substring(psn + 7);
