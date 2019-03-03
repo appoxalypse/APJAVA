@@ -24,6 +24,6 @@ public class Test02 {
     names[3] = "Mateo";
     names[4] = "Sofia";
     System.out.println(names[0]);
-    
+
   }
 }
